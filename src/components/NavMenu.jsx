@@ -5,7 +5,7 @@ const NavMenu = () => {
     <div className='shadow-md py-3'>
         <div className="container m-auto">
           <Navbar fluid rounded>
-            <Navbar.Brand href="https://flowbite-react.com">
+            <Navbar.Brand href="">
               <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">WEB AGENCY</span>
             </Navbar.Brand>
             <div className="flex md:order-2">
@@ -17,8 +17,8 @@ const NavMenu = () => {
                 }
               >
                 <Dropdown.Header>
-                  <span className="block text-sm">Bonnie Green</span>
-                  <span className="block truncate text-sm font-medium">name@flowbite.com</span>
+                  <span className="block text-sm">Himu</span>
+                  <span className="block truncate text-sm font-medium">name@gmail.com</span>
                 </Dropdown.Header>
                 <Dropdown.Item>Dashboard</Dropdown.Item>
                 <Dropdown.Item>Settings</Dropdown.Item>
