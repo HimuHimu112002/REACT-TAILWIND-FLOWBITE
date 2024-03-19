@@ -2,7 +2,7 @@ import React from 'react'
 import { Avatar, Dropdown, Navbar } from 'flowbite-react';
 const NavMenu = () => {
   return (
-    <div className='shadow-md py-3'>
+    <div className='py-3 sticky top-0'>
         <div className="container m-auto">
           <Navbar fluid rounded>
             <Navbar.Brand href="">

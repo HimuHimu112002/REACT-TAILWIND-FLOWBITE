@@ -6,18 +6,21 @@ const Contact = () => {
   return (
     <Container>
         <Flex className='mx-auto mt-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-x-2 gap-y-2 lg:px-28'>
-            <div className='my-10 mx-auto'>
-                <h1 className='text-4xl font-bold text-blue-950'>50% DISCOUNT VOUCHER</h1>
-                <p className='text-3xl font-bold text-blue-950'>Live components code</p>
-                <div className='md:flex w-auto lg:w-96 justify-between p-4'>
-                    <div className='font-bold text-2xl text-center'><h1>19</h1><p className='text-red-500 font-semibold'>DAY</p></div>
-                    <div className='font-bold text-2xl text-center'><h1>23</h1><p className='text-red-500 font-semibold'>HOURS</p></div>
-                    <div className='font-bold text-2xl text-center'><h1>19</h1><p className='text-red-500 font-semibold'>MIN</p></div>
-                    <div className='font-bold text-2xl text-center'><h1>19</h1><p className='text-red-500 font-semibold'>SECOUNDS</p></div>
+            <div className='my-10 mx-auto flex justify-center items-center'>
+                <div>
+                    <h1 className='text-5xl font-bold text-blue-950'>50% DISCOUNT VOUCHER</h1>
+                    <p className='text-3xl font-bold text-blue-950'>Live components code - #394749</p>
+                    <div className='flex w-auto lg:w-96 justify-between py-8'>
+                        <div className='font-bold text-2xl text-center'><h1>19</h1><p className='text-red-500 font-semibold'>DAY</p></div>
+                        <div className='font-bold text-2xl text-center'><h1>23</h1><p className='text-red-500 font-semibold'>HOURS</p></div>
+                        <div className='font-bold text-2xl text-center'><h1>19</h1><p className='text-red-500 font-semibold'>MIN</p></div>
+                        <div className='font-bold text-2xl text-center'><h1>19</h1><p className='text-red-500 font-semibold'>SECOUNDS</p></div>
+                    </div>
                 </div>
             </div>
-            <div className='bg-blue-400 mb-10 py-5 rounded-md'>
-                <form className="max-w-md mx-auto">
+            <div className='mb-10 py-5 rounded-md bg-slate-100 px-5'>
+                <div className='bg-blue-500 py-10 text-center text-white rounded-b-3xl mb-5'><h1 className='text-4xl font-bold'>15 Day Free Trail</h1></div>
+                <form className="mx-auto">
                     <div className="relative z-0 w-full mb-5 group">
                         <input
                         type="email"
@@ -137,7 +140,7 @@ const Contact = () => {
                     </div>
                     <button
                         type="submit"
-                        className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                        className="text-white bg-blue-500 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm lg:w-full sm:w-full px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                     >
                         Submit
                     </button>
