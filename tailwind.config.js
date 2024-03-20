@@ -6,9 +6,9 @@ export default {
   ],
   theme: {
     extend: {
-      maxWidth:{
-        container: "1300px"
-      },
+      // maxWidth:{
+      //   container: "1400px"
+      // },
     },
   },
   plugins: [require('flowbite/plugin')],

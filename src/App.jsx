@@ -3,6 +3,7 @@ import CardItem from './components/CardItem';
 import Contact from './components/Contact';
 import HeroSection from './components/HeroSection';
 import NavMenu from './components/NavMenu';
+import PopularCourse from './components/PopularCourse';
 function App() {
   return (
     <>
@@ -11,6 +12,7 @@ function App() {
       <AgencyAbout/>
       <CardItem/>
       <Contact/>
+      <PopularCourse/>
     </>
   )
 }
