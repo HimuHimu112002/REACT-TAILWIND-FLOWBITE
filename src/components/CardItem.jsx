@@ -1,5 +1,5 @@
 import { Card } from 'flowbite-react';
-import Flex from './Flex';
+
 const CardItem = () => {
   return (
     <div className='mx-auto'>

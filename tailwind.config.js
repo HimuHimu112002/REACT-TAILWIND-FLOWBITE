@@ -6,9 +6,9 @@ export default {
   ],
   theme: {
     extend: {
-      // maxWidth:{
-      //   container: "1400px"
-      // },
+      backgroundImage: {
+        'hero': "url('image/gallary.jpg')",
+      }
     },
   },
   plugins: [require('flowbite/plugin')],
